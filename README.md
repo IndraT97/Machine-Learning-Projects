@@ -10,6 +10,27 @@ This section highlights a series of ML projects and Advance Statisitcal methods.
 
 These projects present unique challenges and opportunities for exploration, aiming to uncover actionable insights and provide data-driven recommendations 📊
 
+## 📚 Content
+
+| Topic                             | Concept / Project                          |
+|------------------------------------|--------------------------------------------|
+| Machine Learning with R Concepts   | Data Visualization R code                |
+|                                    | Logistic Regression and Neural network   |
+|                                    | Association Rule Learning                |
+|                                    | Evaluating Model General Code            |
+|                                    | Hierarchical Clustering                 |
+|                                    | Partitional Clustering                   |
+|                                    | Regression tree                         |
+| Supervised Learning (NLP)          | Bag Of Words Concept                    |
+|                                    | Email Spam Classifier                   |
+|                                    | Tokenization                            |
+| Supervised Learning (Concept)      | National Anthems Classifier using Kmeans|
+|                                    | IMDB_Review_Sentiment_Analysis       |
+| Advance Statistics                 | Descriptive Statistics                     |
+|                                    | Inferential Statistics                     |
+
+
+
 ## 👩🏻‍💻 Usage Instructions
 
 To explore the contents of this repository:
