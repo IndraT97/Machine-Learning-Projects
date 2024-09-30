@@ -1,4 +1,14 @@
-# Machine-Learning-Projects
+# 💡Indrajeet's ML Portfolio
+
+Welcome to my Machine Learning Portfolio repository!! 🚀
+
+This repository is a comprehensive collection of comman techniques and ML Algorithms used in the Industry 📊
+
+## 📚 Summary
+
+This section highlights a series of ML projects and Advance Statisitcal methods. Each project demonstrates my understanding of various ML techniques and proficiency in Python and R scripting💡
+
+These projects present unique challenges and opportunities for exploration, aiming to uncover actionable insights and provide data-driven recommendations 📊
 
 ## 👩🏻‍💻 Usage Instructions
 
