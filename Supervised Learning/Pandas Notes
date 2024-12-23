@@ -1,0 +1,37 @@
+.Fillna(0)
+
+df1 = df0.round({'listen_duration': 2})
+
+Groupby function
+
+groupby = df.groupby("user_id").agg({"song_id":"count",
+                                        "listen_duration":"sum"}).round(0)
+
+
+
+df[(df["source_channel"] == "social_media") & (df["comment_category"] != "short_comments")]
+
+df = df0.merge(df1, on = "user_id", how = "left")
+
+X[X["user_id"].isin(set(df[df["user_name"] == "Karl"]["friend_id"]).intersection(set(df[df["user_name"] == "Hans"]["friend_id"])))]
+
+
+# Applying the condition to filter rows and select specific columns
+filtered_df = orders_analysis.loc[condition, ["stage_of_order", "week", "quantity"]]
+
+
+# Filter the DataFrame with the correct logical operators and parentheses
+filtered_df = orders_analysis.loc[
+    (orders_analysis["week"] <= "2023-03-20") & (orders_analysis["stage_of_order"] == "ordered"),
+    ["stage_of_order", "week", "quantity"]
+
+# ranking 
+
+>>> df["rank"] = df.groupby("group_ID")["value"].rank(method="dense", ascending=False)
+
+
+
+df['datetime'] = df['datetime'].dt.date
+df['datetime'] = df['datetime'].dt.time
+
+

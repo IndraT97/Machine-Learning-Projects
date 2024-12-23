@@ -1,0 +1,94 @@
+model tab us used to register a model
+
+
+When will you create experiment 
+
+1 - When Raw data changes
+2 - When Model Changes
+3 - When work flow changes
+
+
+To track the data itself, make sure you pass raw data which is in the original format
+
+
+ML flow tracks the runs of hyperparamter
+
+runs - combinations of paramters
+
+ML flow tracks hyper paramters, metrics, plots
+
+
+HP tuning Technique :- 
+
+1 - GRID Optimization - It is exhaustive technique that tries all the combinations
+
+2 - RANDON Search -  Within a search space, it tracks random combinations
+
+3 - Bayean Optimization / search - Randomize search using some Algorithme
+
+
+
+Hyperparamter and Parameter are two different thing
+
+Model learn parameters values. User don't provide paramter value. For ex : In Logistic regression Ax + By + cZ , model learn the A,B,C values  
+User provide Hyperparamter values
+Hyperparamter change the output of the models
+
+Baseline - Default HP (Hyperparameter) values
+
+
+
+Grid Search - Behind the back, it forms grid
+
+Grid of Combination of HyperParamters
+
+
+Advantage - 
+It dosen't skip best combination
+Easy to implement
+
+Disadvantage - 
+Computationally expensive
+We need to specify the range and if the optimal value is not within our specified range, we will never reach the optimal value of the hyperparamter
+
+
+Random seach - This method also forms grid and try out random combinations
+
+Note : It is statistically proven that if you try out 60 random combinations, the best model among those 60 models will be one of the top 5% of combinations of HP over that model
+
+
+Baysean Search using Hyperopt :
+
+Two famous pakages
+1 - Hyperopt  
+2 - Optuna 
+
+Both the packages have different algo
+
+
+Loss function guides model
+Our optimization equations are generally minimization equations
+Ax + By + cZ --> we want value of A,B,C in such a way that out loss function is minimized
+
+
+Hyperparamter Space -> Grid (range / lower Bound and Upper Bound value)
+Objective function -> Loss function
+
+
+Here we take gradient decent approach
+given the range of values of hyper parameter, given me the combination where I will reach global minima
+Now this alog is differnt than grid search as it implement smart approch. Grid search will itterate over all the combinations but Baysean seach will understand the pattern and discard the combination qucikly
+
+ex - In grid search, if there is a value which won't give best result, it will still iterate over the combination using that value where as in case of Baysean search it will understand that the value is of no use and it won't iterate over the combination. This will reduce the number of itteration and will reach the best combination quickly
+
+
+
+In grid search, all combinations of hyperparameter values are evaluated, including ineffective ones, making it time-consuming.
+Bayesian optimization, however, uses previous results to focus on the most promising hyperparameters, reducing the number of iterations and quickly finding the best combination
+
+
+
+
+
+
+
